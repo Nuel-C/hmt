@@ -3,10 +3,12 @@ import Link from 'next/link';
 
 const Nav = () => {
 
-  const close = ()=> {
+  const close = () => {
     var element = document.getElementById("main");
-    element.classList.add("hidden");
-  }
+    if (element) {  // Check if element is not null
+        element.classList.add("hidden");
+    }
+};
 
   return (
     <main>

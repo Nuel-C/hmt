@@ -1,13 +1,8 @@
 'use client'
-import { Pacifico } from "next/font/google";
 import { useState, useEffect, useRef } from "react";
 import Link from 'next/link'
 
 
-export const pacifico = Pacifico({
-    subsets: ['cyrillic'],
-    weight: '400'
-});
 
 export default function Login() {
 

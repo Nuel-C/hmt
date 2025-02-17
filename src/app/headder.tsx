@@ -1,7 +1,7 @@
 import { Pacifico } from "next/font/google";
 import Menu from "./menu";
 
-export const pacifico = Pacifico({
+const pacifico = Pacifico({
     subsets: ['cyrillic'],
     weight: '400'
 })

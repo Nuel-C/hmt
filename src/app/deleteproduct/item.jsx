@@ -1,7 +1,7 @@
 import { Pacifico } from "next/font/google";
 import Image from "next/image";
 
-export const pacifico = Pacifico({
+const pacifico = Pacifico({
     subsets: ['cyrillic'],
     weight: '400'
 })

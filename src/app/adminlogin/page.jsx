@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import Link from 'next/link'
 
 
-export const pacifico = Pacifico({
+const pacifico = Pacifico({
     subsets: ['cyrillic'],
     weight: '400'
 });

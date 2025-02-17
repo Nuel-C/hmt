@@ -4,12 +4,12 @@ import Headder from "../headder";
 import Item from "./orderItem";
 import { useState, useRef, useEffect } from "react";
 
-export const pacifico = Pacifico({
+const pacifico = Pacifico({
   subsets: ['cyrillic'],
   weight: '400'
 });
 
-export const grey_qo = Grey_Qo({
+const grey_qo = Grey_Qo({
   subsets: ['latin-ext'],
   weight: '400'
 });

@@ -8,10 +8,12 @@ const pacifico = Pacifico({
 
 export default function Headder() {
 
-  const open = ()=> {
+  const open = () => {
     var element = document.getElementById("main");
-    element.classList.remove("hidden");
-  }
+    if (element) {  // Check if element is not null
+        element.classList.remove("hidden");
+    }
+};
 
   return (
     <main>
